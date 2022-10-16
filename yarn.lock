@@ -3440,18 +3440,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/merge@npm:8.3.3":
-  version: 8.3.3
-  resolution: "@graphql-tools/merge@npm:8.3.3"
-  dependencies:
-    "@graphql-tools/utils": 8.10.0
-    tslib: ^2.4.0
-  peerDependencies:
-    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 64ddc13e1c7fe07c3e1562f708a2a044d42887ad0f8c32a7fc4e15cd3b709a8f1329117b1d2f2c6aae4a94e5da50d167596a61b60f643488f0ca85d98a8ee146
-  languageName: node
-  linkType: hard
-
 "@graphql-tools/merge@npm:8.3.6, @graphql-tools/merge@npm:^8.2.6":
   version: 8.3.6
   resolution: "@graphql-tools/merge@npm:8.3.6"
@@ -3531,17 +3519,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/schema@npm:^9.0.0":
-  version: 9.0.1
-  resolution: "@graphql-tools/schema@npm:9.0.1"
+"@graphql-tools/schema@npm:9.0.4, @graphql-tools/schema@npm:^9.0.0":
+  version: 9.0.4
+  resolution: "@graphql-tools/schema@npm:9.0.4"
   dependencies:
-    "@graphql-tools/merge": 8.3.3
-    "@graphql-tools/utils": 8.10.0
+    "@graphql-tools/merge": 8.3.6
+    "@graphql-tools/utils": 8.12.0
     tslib: ^2.4.0
     value-or-promise: 1.0.11
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 3cc2b8a1d46520680b2dfd8880913e64c09c327298178f55068d70d90843c443d3afb8946cd3201b55a6e037a6889d78ca11570fa78632953b5e9ef0b3f6fe33
+  checksum: fc324312768cecf5d2d2d5f51e8d4788ae327816d716f2cb119bb38853464b7895c1f0d8d96f8ced7635df6a2f3e15a49d64fe3a95a2e68cad021bb83dfa89f1
   languageName: node
   linkType: hard
 
@@ -3567,17 +3555,6 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: 0da3682f0d9f73a8aab296119428a87d686bb6f79a3cf086d51546a406e814c7e057d22c9813e999925b10be958d58a0ab9f5df2048cc870d4100583d82e0e3f
-  languageName: node
-  linkType: hard
-
-"@graphql-tools/utils@npm:8.10.0":
-  version: 8.10.0
-  resolution: "@graphql-tools/utils@npm:8.10.0"
-  dependencies:
-    tslib: ^2.4.0
-  peerDependencies:
-    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 4ffdcdaa8505bf3268c16f8a0150bb1a36d331aa532c43920262f12899751a35a1ecc2ac18929a2e51aff0deb1f5895291fcc1d76d0adc522a6c470147ab0b0e
   languageName: node
   linkType: hard
 
@@ -6801,7 +6778,7 @@ __metadata:
     "@envelop/types": 2.4.0
     "@envelop/validation-cache": 4.7.0
     "@graphql-tools/merge": 8.3.6
-    "@graphql-tools/schema": 8.5.1
+    "@graphql-tools/schema": 9.0.4
     "@graphql-tools/utils": 8.12.0
     "@graphql-yoga/common": 2.12.12
     "@prisma/client": 4.3.1
