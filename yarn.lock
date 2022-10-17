@@ -2164,7 +2164,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@envelop/validation-cache@npm:4.7.0, @envelop/validation-cache@npm:^4.6.0":
+"@envelop/validation-cache@npm:5.0.2":
+  version: 5.0.2
+  resolution: "@envelop/validation-cache@npm:5.0.2"
+  dependencies:
+    lru-cache: ^6.0.0
+    tslib: ^2.4.0
+  peerDependencies:
+    "@envelop/core": ^3.0.2
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: e602e8b212c262ee55769369907b03144f05f60bce9e4bd184057f5983ab30e5b5ad0c24300fe1d4dc2c52df7e07e4eb34e6239cf8a0c9fe0a489c8bfddd85ec
+  languageName: node
+  linkType: hard
+
+"@envelop/validation-cache@npm:^4.6.0":
   version: 4.7.0
   resolution: "@envelop/validation-cache@npm:4.7.0"
   dependencies:
@@ -6799,7 +6812,7 @@ __metadata:
     "@envelop/parser-cache": 4.7.0
     "@envelop/testing": 4.6.0
     "@envelop/types": 2.4.0
-    "@envelop/validation-cache": 4.7.0
+    "@envelop/validation-cache": 5.0.2
     "@graphql-tools/merge": 8.3.6
     "@graphql-tools/schema": 8.5.1
     "@graphql-tools/utils": 8.12.0
